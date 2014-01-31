@@ -140,6 +140,92 @@
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
+        Name="Rank"
+        PropertyType=":Int16?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+          <SupportedValue
+            DisplayName="White Belt"
+            Value="0" />
+          <SupportedValue
+            DisplayName="White Belt - 1st Degree"
+            Value="1" />
+          <SupportedValue
+            DisplayName="White Belt - 2nd Degree"
+            Value="2" />
+          <SupportedValue
+            DisplayName="White Belt - 3rd Degree"
+            Value="3" />
+          <SupportedValue
+            DisplayName="White Belt - 4th Degree"
+            Value="4" />
+          <SupportedValue
+            DisplayName="Blue Belt"
+            Value="5" />
+          <SupportedValue
+            DisplayName="Blue Belt - 1st Degree"
+            Value="6" />
+          <SupportedValue
+            DisplayName="Blue Belt - 2nd Degree"
+            Value="7" />
+          <SupportedValue
+            DisplayName="Blue Belt - 3rd Degree"
+            Value="8" />
+          <SupportedValue
+            DisplayName="Blue Belt - 4th Degree"
+            Value="9" />
+          <SupportedValue
+            DisplayName="Purple Belt"
+            Value="10" />
+          <SupportedValue
+            DisplayName="Purple Belt - 1st Degree"
+            Value="11" />
+          <SupportedValue
+            DisplayName="Purple Belt - 2nd Degree"
+            Value="12" />
+          <SupportedValue
+            DisplayName="Purple Belt - 3rd Degree"
+            Value="13" />
+          <SupportedValue
+            DisplayName="Purple Belt - 4th Degree"
+            Value="14" />
+          <SupportedValue
+            DisplayName="Brown Belt"
+            Value="15" />
+          <SupportedValue
+            DisplayName="Brown Belt - 1st Degree"
+            Value="16" />
+          <SupportedValue
+            DisplayName="Brown Belt - 2nd Degree"
+            Value="17" />
+          <SupportedValue
+            DisplayName="Brown Belt - 3rd Degree"
+            Value="18" />
+          <SupportedValue
+            DisplayName="Brown Belt - 4th Degree"
+            Value="19" />
+          <SupportedValue
+            DisplayName="Black Belt"
+            Value="20" />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ClassType"
+        PropertyType=":Int16?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+          <SupportedValue
+            DisplayName="Young Kids (4-10)"
+            Value="0" />
+          <SupportedValue
+            DisplayName="Older Kids (8-14)"
+            Value="1" />
+          <SupportedValue
+            DisplayName="Adults"
+            Value="2" />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
         Name="RowVersion"
         PropertyType=":RowVersion">
         <EntityProperty.Attributes>
